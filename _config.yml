@@ -18,14 +18,14 @@ avatar: https://github.com/grantzhou/grantzhou.github.io/blob/master/images/logo
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
-  facebook: grantzhou
+  email: grantzhou@aedata.ca
+  facebook: grant.zhou
   flickr:
   github: grantzhou
-  instagram:
+  instagram: grantzhou
   linkedin: grantzhou
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: RSS# just type anything here for a working RSS icon
   twitter: grantchou
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
