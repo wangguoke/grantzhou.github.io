@@ -2,7 +2,7 @@
 layout: post
 title: 从Oracle迁移到PostgreSQL时的挑战 - 以及如何克服它们
 ---
-本文翻译自：https://aws.amazon.com/blogs/database/challenges-when-migrating-from-oracle-to-postgresql-and-how-to-overcome-them/
+英文原文地址：[点击这里](https://aws.amazon.com/blogs/database/challenges-when-migrating-from-oracle-to-postgresql-and-how-to-overcome-them/)
 
 David Rader是OpenSCG的工程副总裁。
 OpenSCG是AWS咨询合作伙伴和PostgreSQL的领先专家，帮助客户在内部和云中迁移，操作和优化PostgreSQL和其他数据平台。(OpenSCG已于2018年被Amazon收购）
