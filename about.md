@@ -13,4 +13,4 @@ Any comments please contact me.
 
 ### Contact me
 
-[grantzhou@aedata.ca](mailto:grantzhou@gmail.com)
+[grantzhou AT gmail dot com](mailto:grantzhou@gmail.com)
