@@ -32,3 +32,36 @@ JackDB是一个基于Web的数据库客户端，具有用于安全性和协作�
 ## [使用逻辑复制升级到Postgres 11](https://postgresweekly.com/link/52655/web)
  Postgres 11还没有完全到来（beta 3是最新版本）, 但是如果你想做好准备..
 `PETER EISENTRAUT`
+
+## [并行PostGIS和PgSQL 11](https://postgresweekly.com/link/52657/web)
+即将推出的Postgres 11为改进并行执行提供了大量可能，但地理空间查询也是如此，但需要考虑带来的结果。
+`PAUL RAMSEY`
+
+## [如何创建“删除重复项”触发器功能](https://postgresweekly.com/link/52658/web)
+`EMERY SILBERMAN`
+
+## [你应该考虑使用的Postgres数据类型](https://postgresweekly.com/link/52659/web)
+Postgres拥有丰富的近100种数据类型。 这里有一些您可能尚未使用但应该考虑的内容。
+`CRAIG KERSTIENS`
+
+## [使用自定义SQL函数进行Postgres和GraphQL查询](https://postgresweekly.com/link/52660/web)
+使用Hasura的GraphQL引擎时，使用由GraphQL插入突变触发的自定义SQL函数在数据库中运行业务逻辑。
+`RIKIN KACHHIA`
+
+## [网络研讨会9月25日 - 免费监控PostgreSQL](https://postgresweekly.com/link/52661/web)
+`SEVERALNINES `  _赞助商_
+
+## [pgsocket：支持Postgres 10的简单TCP/IP套接字客户端](https://postgresweekly.com/link/52662/web)
+
+一个不常见的扩展（Extension），但或许有人感兴趣。 它允许您在查询中使用函数来发送TCP数据包。
+`阿卜杜勒亚迪 ABDUL YADI`
+
+# EVENTS / 活动
+
+## [硅谷PostgresConf - 10月15日至16日（加利福尼亚州圣何塞）](https://postgresweekly.com/link/52663/web)
+Postgres生活各方的绝佳机会，可以连接，领导和学习Postgres及相关生态系统。
+## [欧洲PostgreSQL会议2018 - 10月23日至26日（葡萄牙里斯本）](https://postgresweekly.com/link/52664/web)
+第10届PostgreSQL欧洲会议将在里斯本万豪酒店举行。
+## [FOSDEM PGDay 2019 - 2019年2月1日（比利时布鲁塞尔）](https://postgresweekly.com/link/52665/web)
+FOSDEM常规PostgreSQL活动的延伸。
+
