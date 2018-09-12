@@ -34,7 +34,7 @@ JackDB是一个基于Web的数据库客户端，具有用于安全性和协作�
 `PETER EISENTRAUT`
 
 ## [并行PostGIS和PgSQL 11](https://postgresweekly.com/link/52657/web)
-即将推出的Postgres 11为改进并行执行提供了大量可能，但地理空间查询也是如此，但需要考虑带来的结果。
+即将推出的Postgres 11为改进并行执行提供了大量可能，地理空间查询也是如此，不过你需要考虑其所带来的结果。
 `PAUL RAMSEY`
 
 ## [如何创建“删除重复项”触发器功能](https://postgresweekly.com/link/52658/web)
