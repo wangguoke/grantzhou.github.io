@@ -2,7 +2,7 @@
 layout: post
 title: PostgreSQL 行为准则
 ---
-
+[英文原文](https://www.postgresql.org/about/policies/coc/)
 # 行为准则
 
 ## 前言
