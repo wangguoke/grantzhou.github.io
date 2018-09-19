@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
 Hi, I am Grant Zhou
+
 ![_config.yml]({{ site.baseurl }}/images/WechatIMG25.jpeg)
 
 ### More Information
