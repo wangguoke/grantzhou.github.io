@@ -5,6 +5,7 @@ title: PostgreSQL 每周新闻 2018-09-12
 
 ### PostgreSQL每周新闻 #274 - 2018年9月12日
 ![_config.yml]({{ site.baseurl }}/images/PostgresWeekly.png)
+
 备注：[英文原文地址](https://postgresweekly.com/issues/274)
 
 ## [Postgres 11中的主要功能 - PDF](https://postgresweekly.com/link/52922/web)
@@ -17,6 +18,7 @@ Bruce已经更新了他的广受欢迎的Postgres 10幻灯片，现在专注于P
 
 ## [实时Postgres性能监控](https://postgresweekly.com/link/52923/web)
 ![Data Dog Image](https://copm.s3.amazonaws.com/70271d1e.png)
+
 收集现有的和自定义的PostgreSQL指标，并将它们与分布式基础架构，应用程序和日志中的数据相关联。 使用Datadog获得实时性能洞察并设置智能警报。
 [开始免费试用](https://postgresweekly.com/link/52923/web)。
 `DATADOG` *赞助商*
