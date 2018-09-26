@@ -5,7 +5,7 @@ title: PostgreSQL 每周新闻 2018-09-26
 
 ### PostgreSQL每周新闻 #275 - 2018年9月26日
 ![_config.yml]({{ site.baseurl }}/images/PostgresWeekly.png)
-![_config.yml]({{ site.baseurl }}/images/wn0928.png)
+![_config.yml]({{ site.baseurl }}/images/wn0928.jpg)
 
 备注：[英文原文地址](https://postgresweekly.com/issues/275)
 
