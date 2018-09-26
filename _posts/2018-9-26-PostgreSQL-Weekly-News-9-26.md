@@ -23,6 +23,7 @@ title: PostgreSQL 每周新闻 2018-09-26
 
 ## [Postgres-XL：可水平扩展的PostgreSQL](https://postgresweekly.com/link/53271/web)
 ![XL IMG]({{ site.baseurl }}/images/xl.jpg)
+
 Postgres-XL是一个大规模并行处理数据库 - 与PostgreSQL密切兼容，可以横向扩展。 
 它在同一平台上支持Business Intelligence(商业智能)工作负载和大容量事务性写入和读取工作负载。
 
