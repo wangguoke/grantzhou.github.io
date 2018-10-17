@@ -71,7 +71,7 @@ pg_prewarm可用于将关系数据加载到OS或Postgres缓冲区缓存中。 �
 
 `PAVAN DEOLASEE`
 
-## [PostgreSQL管理和自动化 - 免费白皮书](xx)
+## [PostgreSQL管理和自动化 - 免费白皮书](https://postgresweekly.com/link/54205/web)
 探索管理PostgreSQL的挑战以及如何有效地处理管理带来的任务。
 
 `SEVERALNINES` *赞助商*
