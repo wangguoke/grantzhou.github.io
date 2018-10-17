@@ -66,7 +66,9 @@ pg_prewarm可用于将关系数据加载到OS或Postgres缓冲区缓存中。 �
 
 ## [PostgreSQL中的索引功能 YOUTUBE](https://www.youtube.com/watch?v=VVG8nYqIiMI)
 涵盖Postgres支持的不同类型的索引，如何查找丢失和未使用的索引，GIN和GiST索引的概述等。
-*如果无法访问Youtube，请联系我们，我们可以将视频下载地址*
+
+**如果无法访问Youtube，请关注 瀚高软件 公众号，并发送消息 PW20181017001 自动得到网盘下载地址**
+
 `PAVAN DEOLASEE`
 
 ## [PostgreSQL管理和自动化 - 免费白皮书](xx)
