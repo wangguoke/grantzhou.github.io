@@ -4,9 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hi, I am Grant Zhou
-
-![_config.yml]({{ site.baseurl }}/images/WechatIMG25.jpeg)
+Hi, I am Grant Zhou from Highgo Software.
+大家好，我是来自瀚高的周宝峰
 
 ### More Information
 
