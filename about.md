@@ -9,9 +9,9 @@ Hi, I am Grant Zhou from Highgo Software.
 
 ### More Information
 
-I am going to use it to post any PostgreSQL related technical topics here.
-Any comments please contact me.
+I am going to post any PostgreSQL related technical topics here. 
 
+Please let me know if any comments.
 ### Contact me
 
 [grantzhou AT gmail dot com](mailto:grantzhou@gmail.com)
