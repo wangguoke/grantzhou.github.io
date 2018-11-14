@@ -18,6 +18,7 @@ title: PostgreSQL 每周新闻 2018-11-14
 ## [Postgres 11.1,10.6,9.6.11,9.5.15,9.4.20和9.3.25 发布了](https://www.postgresql.org/about/news/1905/)
 主要用于修复pg_upgrade和pg_dump中的SQL注入安全问题的一系列发布。 
 这也标志着9.3的最终版本，现已达到其寿命终结。
+
 `PosrgreSQL全球开发组`
 
 ## [JackDB：Postgres的现代数据库客户端](https://www.jackdb.com)
@@ -40,6 +41,7 @@ phpPgAdmin是一个现在相当古老的基于Web的Postgres管理工具（与My
 
 ## [防止Postgres中的SQL注入](https://tapoueh.org/blog/2018/11/preventing-sql-injections/)
 ![xkcd](https://tapoueh.org/img/exploits_of_a_mom.png)
+
 当应用程序允许用户输入（或任何其他意外数据）来更改SQL查询的结构时，会发生SQL注入。 以下是一些避免这种情况的方法。
 
 `DIMITRI FONTAINE`
