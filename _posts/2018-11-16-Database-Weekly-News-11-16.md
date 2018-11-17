@@ -26,7 +26,7 @@ title: 数据库每周新闻 2018-11-16
 `ELASTIC`
 
 ## [看看为什么Chef公司的CTO喜欢强大的DM](https://www.strongdm.com/db-weekly-november-2018/?utm_source=newsletter&utm_medium=primary)
-![STRONGDM'(https://copm.s3.amazonaws.com/4f0e8675.jpg)
+![STRONGDM'](https://copm.s3.amazonaws.com/4f0e8675.jpg)
 “strongDM就是那种让你说出来的技术：当然，这应该是一直有效的。” - Adam Jacob，联合创始人兼首席技术官，Chef
 
 在具有strongDM的任何环境中单击访问任何数据库或服务器。
