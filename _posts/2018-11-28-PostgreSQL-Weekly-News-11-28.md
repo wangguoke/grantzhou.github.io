@@ -22,7 +22,7 @@ UUID（通用唯一标识符）是行ID的整数的流行替代方法，并且�
 
 ## [当至关重要时，您可以信赖我们](https://www.2ndquadrant.com/en/support/support-postgresql/?utm_source=cp&utm_medium=text&utm_campaign=cpsupport)
 
-![2Q](https://copm.s3.amazonaws.com/c6bf77a9.jpg]
+![2Q](https://copm.s3.amazonaws.com/c6bf77a9.jpg)
 
 2ndQuadrant支持工程师对PostgreSQL项目有超过100年的组合代码贡献。 我们提供有保证的15分钟响应时间和24小时错误修复 - 以最短的停机时间快速恢复数据库。
 
