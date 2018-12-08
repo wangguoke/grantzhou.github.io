@@ -14,7 +14,7 @@ AgensGraph是Postgres上构建的图形数据库（支持SQL和Cypher查询）�
 `BITNINE`
 
 ## [使用Elasticsearch作为ETL管道中的主数据存储](https://vlkan.com/blog/post/2018/11/14/elasticsearch-primary-data-store/)
-一篇相当广泛的文章涵盖了在比利时和荷兰最大的在线零售商的ETL管道中采用一种相当新颖的方法来使用Elasticsearch的经验教训。
+一篇相当广泛的文章涵盖了在比利时和荷兰最大的在线零售商的ETL管道中采用一种相当新颖的方法来使用Elasticsearch的经验。
 
 `VOLKAN YAZICI`
 
