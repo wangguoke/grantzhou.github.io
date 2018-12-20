@@ -33,19 +33,19 @@ Bruce保留了一个受欢迎的幻灯片，涵盖了最新版Postgres中的功�
 `GOOGLE CLOUD` *赞助商*
 
 ## [我最喜欢的Postgres查询及其重要性](https://severalnines.com/blog/my-favorite-postgresql-queries-and-why-they-matter)
-作者发现的关于一个有趣的查询组合的有趣\引人入胜的探究，研究和学习。
+作者发现的关于一个有趣的查询组合的引人入胜的探究，研究和学习。
 
 `JOSHUA OTWELL`
 
 ## [PostgreSQL崩溃：对性能的影响是什么？](https://blog.2ndquadrant.com/postgresql-meltdown/)
-还记得2018年初Spectre和Meltdown CPU漏洞的戏剧性吗？ Postgres最终没有受到太大影响。 很快就能看到对长期影响的正确回顾。
+还记得2018年初戏剧性的Spectre和Meltdown CPU漏洞吗？ Postgres最终没有受到太大影响。 很快就能看到对长期影响的正确回顾。
 
 `2NDQUADRANT`
 
 # 2018年最好的工具
 
 ## [PostgreSQL Anonymizer：屏蔽个人信息的工具](http://blog.taadeem.net///english/2018/10/29/Introducing-PostgreSQL-Anonymizer)
-我们今年链接的最受欢迎的工具，也许不出所料，这是一个新的Postgres扩展，用于屏蔽或替换个人身份信息（PII），这有助于浏览适用于今年新实施的GDPR法规的内容。
+我们今年链接的最受欢迎的工具，可能也并不意外，是一个用于屏蔽或替换个人身份信息（PII）的新的Postgres扩展，，这有助于浏览适用于今年新实施的GDPR法规的内容。
 
 `DAMIEN CLOCHARD`
 
@@ -81,7 +81,7 @@ Bruce保留了一个受欢迎的幻灯片，涵盖了最新版Postgres中的功�
 `CRAIG KERSTIENS`
 
 ## [PostgreSQL Exercises](https://pgexercises.com/)
-如果您正在寻找一种在假期练习SQL技能的方法，PG Exercises会提供一些很好的示例数据和练习来磨练您的技能。
+如果您正在寻找一种在假期练习SQL技能的方法，PG Exercises会提供一些很好的示例数据和练习来锻炼您的技能。
 
 `ALISDAIR OWENS`
 
