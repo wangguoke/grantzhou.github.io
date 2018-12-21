@@ -28,6 +28,8 @@ Bruce保留了一个受欢迎的幻灯片，涵盖了最新版Postgres中的功�
 `CRAIG KERSTIENS`
 
 ## [了解Google Cloud SQL对于PostgreSQL的高可用性](https://cloudplatformonline.com/2018-Cloud-SQL-for-PostgreSQL.html?utm_source=cooper&utm_medium=email&utm_campaign=FY18-Q4-americas-other-email-wd-postgresql&utm_content=promo)
+
+![google cloud](https://copm.s3.amazonaws.com/c0ca6919.jpg)
 下载本指南,了解Cloud SQL如何通过持续运行状况检查，跨区域的同步数据复制,自动故障转移和可伸缩性来优化和增强典型的PostgreSQL HA技术堆栈。
 
 `GOOGLE CLOUD` *赞助商*
