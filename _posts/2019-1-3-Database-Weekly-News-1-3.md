@@ -8,7 +8,7 @@ title: 数据库每周新闻 2019-1-3
 
 欢迎来到2019年。我们希望这将是数据库世界中重要的一年，为了解决这个问题，我们将回顾2018年最受欢迎的链接，由那些像您一样的读者所点击的🙂
 
-感谢您一如既往的支持，并请记住如果您想提交任何内容，请点击回复！
+感谢您一如既往的支持，并请记住如果您想提交任何内容，请回复！
 
 - 编辑 Peter Cooper
 
@@ -38,7 +38,7 @@ GitHub使用MySQL作为所有非git相关事物的主要数据存储区，因此
 # 数据库发展方向的四个想法..
 
 ## [一个数据库适合所有情况已经不再合适](https://www.allthingsdistributed.com/2018/06/purpose-built-databases-in-aws.html)
-亚马逊的CTO经常被问到为什么AWS提供了这么多不同的数据库产品。亚马逊的首席技术官经常被问到为什么AWS提供了这么多不同的数据库产品。在这里，他解释了原因，并解释了他的信念，即在应用程序中使用多个数据库是一个很好的举措.(我想我们会在2019年看到这是一个趋势)
+亚马逊的CTO经常被问到为什么AWS提供了这么多不同的数据库产品。在这里，他解释了原因，并解释了他的信念，即在应用程序中使用多个数据库是一个很好的举措。(我想我们会在2019年看到这是一个趋势)
 
 `WERNER VOGELS`
 
@@ -57,7 +57,7 @@ Redis以非常快速的键值存储而闻名，但除此之外还有更多，特
 
 `DATANAMI`
 
-## [满足基础设施访问Api：Strongdm](https://www.strongdm.com/dbw-01-04-19/?utm_source=&utm_medium=email&utm_campaign=2019-01-04%20-%20%5BNL%5D%20-%20%5BSchD%5D%20-%20%5BSDM%5D%20-%20DBW-LPA-JAN)
+## [满足基础设备访问的Api：Strongdm](https://www.strongdm.com/dbw-01-04-19/?utm_source=&utm_medium=email&utm_campaign=2019-01-04%20-%20%5BNL%5D%20-%20%5BSchD%5D%20-%20%5BSDM%5D%20-%20DBW-LPA-JAN)
 使用现有SSO管理对数据库和服务器的访问。减少麻烦。审核员的即时答案。[观看演示](https://www.gitprime.com/resources-data-driven-engineering-metrics/?utm_source=dbwk&utm_medium=email-nl&utm_campaign=dbwk(q1))
 
 `STRONGDM` **赞助商**
