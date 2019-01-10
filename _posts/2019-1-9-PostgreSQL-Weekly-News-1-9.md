@@ -64,7 +64,7 @@ Postgres官方wiki上的新页面。
 `NIKOLAY SHAPLOV`
 
 ## [HypoPG 2.0 Beta版](https://github.com/HypoPG/hypopg)
-HypoPG是一个Postgres的扩展，支持假设索引和推荐。2.0版本现在在这里，增加了对Postgres 10及更高版本中假设分区的支持。
+HypoPG是一个Postgres的扩展，支持虚拟索引和推荐。2.0版本现在在这里，增加了对Postgres 10及更高版本中假设分区的支持。
 
 `POSTGRESQL GLOBAL DEVELOPMENT GROUP`
 
