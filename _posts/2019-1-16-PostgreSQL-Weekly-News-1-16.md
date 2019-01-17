@@ -83,7 +83,7 @@ ORDER BY 3 DESC LIMIT 10;
 ```
 
 这个简单的查询将有助于突显重顺序扫描的表以及需要添加索引的潜在候选者。
-通过查看seq_scan结果，您可以准确地看到表上发生了多少次顺序扫描。然后查看seq_tup_read，您可以看到在这些扫描期间多少个元组正在被读取。如果某些表上的>数字明显更高，则可能非常需要一些额外的索引。
+通过查看seq_scan结果，您可以准确地看到表上发生了多少次顺序扫描。然后查看seq_tup_read，您可以看到在这些扫描期间多少个元组正在被读取。如果某些表上的数字明显高，则可能非常需要一些额外的索引。
 这个“本周提示”由Peter Tormey @ SoFi 提供，并由[strongDM](https://www.strongdm.com/?utm_source&utm_medium=email&utm_campaign=2019-01-16%20-%20%5BNL%5D%20-%20%5BSchD%5D%20-%20%5BSDM%5D%20-%20PGW-TIP-JAN)赞助。
 
 SoFi依靠strongDM来管理和保护对数据库和服务器的访问。[了解有关strongDM的更多信息](https://www.strongdm.com/?utm_source&utm_medium=email&utm_campaign=2019-01-16%20-%20%5BNL%5D%20-%20%5BSchD%5D%20-%20%5BSDM%5D%20-%20PGW-TIP-JAN)
