@@ -72,7 +72,7 @@ pg_stat_user_tables是一个出色的系统视图，可以向我们展示有关�
 
 但是，首先要考虑的是，是否存在需要新索引的表，因为这会对数据库的整体性能产生重大影响：
 
-```
+```PLSQL
 SELECT relname,  
     seq_scan,  
     seq_tup_read,  
