@@ -96,10 +96,9 @@ Postico是一种商业产品（试用版），但外观优雅，像Mac一样。
  ```
  INSERT INTO employee_locations 
   (name, location, start_date, end_date) 
-VALUES 
+ VALUES 
   ('Brendan', 'Store', '2019-01-15', '2019-02-15');
-
-ERROR: conflicting key value violates exclusion constraint "unique_location_date_range"
+ ERROR: conflicting key value violates exclusion constraint "unique_location_date_range"
  ```
  
  
