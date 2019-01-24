@@ -11,7 +11,7 @@ title: PostgreSQL 每周新闻 2019-1-23
 ![img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/sziczpdxe73ycmfdl5vm.jpg)
 
 ## [Postgres的JSON功能概述](https://severalnines.com/blog/overview-json-capabilities-within-postgresql)
-大约六年前，本地JSON支持登陆Postgres 9.2，并为Postgres世界带来了文档数据库的一些好处。 尽管如此，事情已经取得了进展，本博客概述了这些进展。
+大约六年前，Postgres 9.2开始支持原生JSON，并为Postgres世界带来了文档数据库的一些好处。 虽然已经取得了进展，本博客仍然提供了一些这方面的概述。
 
 `VENKATA NAGOTHI`
 
@@ -20,7 +20,7 @@ title: PostgreSQL 每周新闻 2019-1-23
 
 `HAKI BENITA`
 
-## [使用Telegraf和InfluxDB监控PostgreSQL数据库](https://www.influxdata.com/blog/monitoring-your-postgresql-database-with-telegraf-and-influxdb/)
+## [使用Telegraf和InfluxDB监控您的PostgreSQL数据库](https://www.influxdata.com/blog/monitoring-your-postgresql-database-with-telegraf-and-influxdb/)
 ![img_influxdb](https://copm.s3.amazonaws.com/b8367954.jpg)
 本教程将专门介绍设置Telegraf和InfluxDB以监控PostgreSQL的过程。
 
@@ -31,7 +31,7 @@ pg_permission是一个工具，它显示数据库的安全设置，以便您快�
 
 `HANS-JÜRGEN SCHÖNIG`
 
-## [PGLoader：在单个命令中迁移到Postgres](https://github.com/dimitri/pgloader)
+## [PGLoader：使用单个命令中迁移到Postgres](https://github.com/dimitri/pgloader)
 基于COPY的数据加载工具,既支持并行又可以加载可能部分错误但不会停止的数据（如\ copy）。
 
 `DIMITRI FONTAINE`
@@ -42,7 +42,7 @@ pg_permission是一个工具，它显示数据库的安全设置，以便您快�
 `RAPIDLOOP`
 
 ## [PostgreSQL的内部结构：简介](http://www.interdb.jp/pg/index.html)
-这篇文章介绍了一些最近在社交媒体上进行巡回演讲中谈到的并且在过去的一年中获得了更新的经典问题。
+这篇文章介绍了一些最近在社交媒体上进行巡回演讲中谈到的并且在过去的一年中所收获的一些经典问题的更新。
 
 `HIRONOBU SUZUKI`
 
@@ -62,12 +62,14 @@ Postico是一种商业产品（试用版），但外观优雅，像Mac一样。
 `EGGER APPS`
 
 # ![_config.yml]({{ site.baseurl }}/images/Tips-icon.png)   本周提示
- >使用排它约束可防止重期范围重叠 -Brendan Carney
  
- >假设我们正在构建一个产品，用于计划员工在给定时间范围内应该处于哪个位置。 由于员工不能同时在两个地方，我们需要一种方法来确保我们的日期范围都不重叠 - 让我们使用排它约束！
- >(必须启用btree_gist扩展：CREATE EXTENSION btree_gist;）
- >我们的表:
- ```
+ 使用排它约束可防止重期范围重叠 -Brendan Carney
+ 
+假设我们正在构建一个产品，用于计划员工在给定时间范围内应该处于哪个位置。 由于员工不能同时在两个地方，我们需要一种方法来确保我们的日期范围都不重叠 - 让我们使用排它约束！
+ (必须启用btree_gist扩展：CREATE EXTENSION btree_gist;）
+ 
+ 我们的表:
+ ```PLSQL
  CREATE TABLE employee_locations (
   name varchar,
   location varchar,
@@ -75,25 +77,29 @@ Postico是一种商业产品（试用版），但外观优雅，像Mac一样。
   end_date date
 );
  ``` 
- >约束:
- ```
+ 
+约束:
+
+ ```PLSQL
  ALTER TABLE employee_locations
   ADD CONSTRAINT unique_location_date_range
     EXCLUDE USING gist ( 
       name WITH =, 
       daterange(start_date, end_date, '[]') WITH &&
     );
- ```
- >现在，让我们插入一条记录，说Brendan应该在1月份的办公室：
- ```
+ ```PLSQL
+ 
+现在，让我们插入一条记录，说Brendan应该在1月份的办公室：
+
+```PLSQL
  INSERT INTO employee_locations
   (name, location, start_date, end_date) 
  VALUES 
   ('Brendan', 'Office', '2019-01-01', '2019-01-31');
  ```
- >如果我们现在尝试在任何重叠时间将Brendan放在不同的位置，则约束将不允许：
+如果我们现在尝试在任何重叠时间将Brendan放在不同的位置，则约束将不允许：
  
- ```
+ ```PLSQL
  INSERT INTO employee_locations 
   (name, location, start_date, end_date) 
  VALUES 
