@@ -71,6 +71,7 @@ Postico是一种商业产品（试用版），但外观优雅，像Mac一样。
  我们的表:
  
 ```PLSQL
+ #dd
  CREATE TABLE employee_locations (
   name varchar,
   location varchar,
@@ -98,6 +99,7 @@ Postico是一种商业产品（试用版），但外观优雅，像Mac一样。
  VALUES 
   ('Brendan', 'Office', '2019-01-01', '2019-01-31');
 ```
+
 如果我们现在尝试在任何重叠时间将Brendan放在不同的位置，则约束将不允许：
  
 ```PLSQL
