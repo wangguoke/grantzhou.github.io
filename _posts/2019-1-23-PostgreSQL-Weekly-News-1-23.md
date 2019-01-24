@@ -71,43 +71,50 @@ Postico是一种商业产品（试用版），但外观优雅，像Mac一样。
  我们的表:
  
 ```PLSQL
- #dd
+
  CREATE TABLE employee_locations (
   name varchar,
   location varchar,
   start_date date,
   end_date date
 );
+
 ``` 
  
 约束:
 
 ```PLSQL
+
  ALTER TABLE employee_locations
   ADD CONSTRAINT unique_location_date_range
     EXCLUDE USING gist ( 
       name WITH =, 
       daterange(start_date, end_date, '[]') WITH &&
     );
-```PLSQL
+
+```
  
 现在，让我们插入一条记录，说Brendan应该在1月份的办公室：
 
 ```PLSQL
+
  INSERT INTO employee_locations
   (name, location, start_date, end_date) 
  VALUES 
   ('Brendan', 'Office', '2019-01-01', '2019-01-31');
+
 ```
 
 如果我们现在尝试在任何重叠时间将Brendan放在不同的位置，则约束将不允许：
  
 ```PLSQL
+
  INSERT INTO employee_locations 
   (name, location, start_date, end_date) 
  VALUES 
   ('Brendan', 'Store', '2019-01-15', '2019-02-15');
  ERROR: conflicting key value violates exclusion constraint "unique_location_date_range"
+
 ```
  
  
