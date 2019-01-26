@@ -59,7 +59,7 @@ MongoDB的CTO Eliot Horowitz对MongoDB和新的AWS DocumentDB服务进行了比�
 `MONGODB` *赞助商*
 
 ## [使用TDS外部数据包装器，将SQL Server里的数据加载到PostgreSQL里](https://dbweekly.com/link/58475/web)
-数据存储再SQL server里，然后用Postgres的查询引擎来查询，通过使用foreign data wrapper便可以办得到。方法见文中介绍。
+数据存储在SQL server里，然后用Postgres的查询引擎来查询，通过使用foreign data wrapper便可以办得到。方法见文中介绍。
 
 `LUCA FERRARI`
 
