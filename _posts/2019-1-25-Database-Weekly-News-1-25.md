@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 数据库每周新闻 2019-1-26
+title: 数据库每周新闻 2019-1-25
 ---
 
-### 数据库每周新闻 #238 - 2019年1月26日
+### 数据库每周新闻 #238 - 2019年1月25日
 ![_config.yml]({{ site.baseurl }}/images/DBWeekly.png)
 
 备注：[英文原文地址](https://dbweekly.com/issues/238)
