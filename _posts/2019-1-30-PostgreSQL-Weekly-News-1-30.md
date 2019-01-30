@@ -18,7 +18,9 @@ Citus以其同名的Postgres扩展而闻名，这使得Postgres更容易横向�
 ## [将Postgres扩展到每月12亿条记录的经验教训](https://medium.com/@gajus/lessons-learned-scaling-postgresql-database-to-1-2bn-records-month-edc5449b3067)
 
 **译者**: 文章发表在Medium网站，国内访问需要梯子
+
 **译者**: [查看此文章的复制版本](https://grantzhou.github.io/lessons-learned-scaling-postgresql-database-to-1-2bn-records-month/)
+
 `GAJUS KUIZINAS`
 
 ## [在PostgreSQL环境中诊断和解决性能问题](https://www.quest.com/products/foglight-for-postgresql/?utm_source=&utm_medium=Direct-External+Online+Advertising&utm_campaign=FY2019_Q4_AMER_DBPerf_CooperPress_FoglightPostgres_Jan_eNewsletter_ADV&utm_term=&utm_content=cooper-press-enewsletter)
