@@ -3,8 +3,8 @@ layout: post
 title: 数据库每周新闻 2019-1-25
 ---
 
-### 数据库每周新闻 #238 - 2019年1月25日
-![_config.yml]({{ site.baseurl }}/images/DBWeekly.png)
+## 数据库每周新闻 #238 - 2019年1月25日
+![config.yml]({{ site.baseurl }}/images/DBWeekly.png)
 
 备注：[英文原文地址](https://dbweekly.com/issues/238)
 
@@ -36,7 +36,7 @@ MongoDB的CTO Eliot Horowitz对MongoDB和新的AWS DocumentDB服务进行了比�
 
 `ELIOT HOROWITZ (MONGODB)` 
 
-## ▶   [在Go中构建弹性数据管道](https://dbweekly.com/link/58471/web)
+## [在Go中构建弹性数据管道](https://dbweekly.com/link/58471/web)
 了解GE如何使用Kafka和Cassandra在Go中构建高吞吐量数据管道，以及如何使用它。
 
 `GRANT GRIFFITHS`
@@ -79,3 +79,5 @@ InfluxDB 2.0的第一个alpha版本现已发布。
 超过65,000名开发人员和工程师信任我们，帮助他们找到完美的技术工作。 2019年是因为你的技能而被聘用的一年。
 
 `HACKAJOB`
+
+
