@@ -21,7 +21,7 @@ MongoDB首席执行官Dev Ittycheria解释 *“为什么document model是显而�
 `DEV ITTYCHERIA（MONGODB）`
 
 ## [基于PostgreSQL 进行时序数据的管理和分析](https://dbweekly.com/link/58468/web)
-​                                                                                                                             ![img](https://copm.s3.amazonaws.com/2e2064e1.jpg)
+![ts db img](https://copm.s3.amazonaws.com/2e2064e1.jpg)
 文中介绍了TimescaleDB如何通过将插入速率提高20倍，保持更快的查询速度，引入新的分析功能等，将PostgreSQL转换为时序数据库。
 
 `TIMESCALE ` *赞助商*
