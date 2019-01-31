@@ -10,7 +10,7 @@ title: PostgreSQL 每周新闻 2019-1-30
 
 ![img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/jdtcqvqtmtfmgninlrcd.jpg)
 
-## [微软收购Postgres横向扩展公司Citus Data](https://blogs.microsoft.com/blog/2019/01/24/microsoft-acquires-citus-data-re-affirming-its-commitment-to-open-source-and-accelerating-azure-postgresql-performance-and-scale/)
+## [微软收购Citus Data，后者专注于Postgres的横向扩展](https://blogs.microsoft.com/blog/2019/01/24/microsoft-acquires-citus-data-re-affirming-its-commitment-to-open-source-and-accelerating-azure-postgresql-performance-and-scale/)
 Citus以其同名的Postgres扩展而闻名，这使得Postgres更容易横向扩展。 此次收购是微软承诺支持Azure上的开源数据库用户和Postgres的一个有趣的证明。
 
 `微软`
