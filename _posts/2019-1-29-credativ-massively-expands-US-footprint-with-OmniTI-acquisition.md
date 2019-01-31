@@ -2,8 +2,7 @@
 layout: post
 title: Credativ收购OmniTI，大规模扩大了其在美国的业务范围
 ---
-
-原文地址：https://omniti.com/remembers/2019/credativ-massively-expands-us-footprint.html
+[原文地址](https://omniti.com/remembers/2019/credativ-massively-expands-us-footprint.html)
 
 Credativ集团，欧洲和亚洲开源解决方案和支持的领先提供商，宣布向美国市场进行战略扩张，收购OmniTI计算机咨询公司（OmniTI）的部分重要资产。
 OmniTI计算机咨询公司是一家高度一致的马里兰州技术服务公司。 新的合并实体建立扩大的开源支持中心和PostgreSQL能力中心，构成了在马里兰州哥伦比亚的新美国总部基础。
