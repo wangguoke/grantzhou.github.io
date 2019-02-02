@@ -40,80 +40,6 @@ th, td {
 tr:nth-child(even) {background-color: #f2f2f2;}
 </style>
 
-<table>
-    <tr>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-      <th>Points</th>
-    </tr>
-    <tr>
-      <td>Jill</td>
-      <td>Smith</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-      <td>50</td>
-    </tr>
-    <tr>
-      <td>Eve</td>
-      <td>Jackson</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-      <td>94</td>
-    </tr>
-    <tr>
-      <td>Adam</td>
-      <td>Johnson</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-      <td>67</td>
-    </tr>
-  </table>
-  
-|-----------------+------------+-----------------+----------------|
-| Default aligned |Left aligned| Center aligned  | Right aligned  |
-|-----------------|:-----------|:---------------:|---------------:|
-| First body part |Second cell | Third cell      | fourth cell    |
-| Second line     |foo         | **strong**      | baz            |
-| Third line      |quux        | baz             | bar            |
-|-----------------+------------+-----------------+----------------|
-| Second body     |            |                 |                |
-| 2 line          |            |                 |                |
-|=================+============+=================+================|
-| Footer row      |            |                 |                |
-|-----------------+------------+-----------------+----------------|
-
-
-
 |---| 仪表板Dashboard | 决策系统Decision Systems | 即席查询 Ad Hoc Queries |
 |:---:|:---:|:---:|:---:|
 | **查询模式** | 已知 | 已知 | 随意 |
@@ -257,6 +183,7 @@ AresDB还通过事实表将成熟，排序和压缩的列式数据（存档向�
 
 ## 查询处理
 使用当前实现，用户将需要使用由Uber创建的Ares查询语言（AQL）来对AresDB运行查询。 AQL是一种有效的时间序列分析查询语言，并不像其他类SQL语言那样遵循SELECT FROM WHERE GROUP BY的标准SQL语法。 相反，AQL在结构化字段中指定，可以使用JSON，YAML和Go对象携带。 例如，代替`SELECT count（*）FROM trip GROUP BY city_id WHERE status ='completed'AND request_at> = 1512000000`，JSON中的等效AQL写为：
+
 ```
 {
  “table”: “trips”,
@@ -274,7 +201,9 @@ AresDB还通过事实表将成熟，排序和压缩的列式数据（存档向�
    “from”: “2 days ago”
  }
 }
-```
+
+
+
 在JSON格式中，AQL为仪表板和决策系统开发人员提供了比SQL更好的编程查询体验，因为它允许他们使用代码轻松编写和操作查询，而无需担心SQL注入等问题。 它作为Web浏览器，前端服务器和后端服务器的典型架构的通用查询格式，一直回到数据库（AresDB）。 此外，AQL提供方便的语法糖，用于时间过滤和bucketization，具有本机时区支持。 该语言还支持隐式子查询等功能，以避免常见的查询错误，并使后端开发人员可以轻松进行查询分析和重写。
 
 尽管AQL提供了各种好处，但我们完全清楚大多数工程师更熟悉SQL。 公开SQL接口进行查询是我们为了增强AresDB用户体验而采取的后续步骤之一。
