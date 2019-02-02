@@ -10,7 +10,7 @@ title: 数据库每周新闻 2019-2-1
 
 ![img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/vhdp5hvij9fid43z4pjh.jpg)
 
-## [AresDB介绍：Uber的开源GPU驱动实时分析引擎](https://eng.uber.com/aresdb/)
+## [AresDB介绍：Uber的基于GPU的开源实时分析引擎](https://eng.uber.com/aresdb/)
 Uber,一种共享乘车服务，具有巨大的数据驱动力，它们构建了一个重要的系统，使用GPU对大规模并行系统进行实时分析。 这是一篇很棒的文章来介绍这个系统是如何工作的。[这里是源代码](https://github.com/uber/aresdb)
 
 `UBER ENGINEERING`
