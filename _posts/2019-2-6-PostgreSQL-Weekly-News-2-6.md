@@ -82,9 +82,13 @@ Postgres的MVCC实现意味着它可以一次保留多个版本的数据，从�
 然后从本地（或“目标”）数据库运行此类查询：
 
 `INSERT INTO my_table`
+
 `SELECT * FROM dblink（`
+
 `'dbname = my_other_db options = -csearch_path ='，`
+
 `'SELECT some_data FROM my_other_table;'）`
+
 `AS temp（some_data TEXT）;`
 
 请注意，[postgres_fdw](http://www.craigkerstiens.com/2016/09/11/a-tour-of-fdws/)提供了一种更通用和现代的方法来执行类似的操作，特别是如果您想要连接到外部数据库，但dblink可能非常适合您对快速本地作业的需求。
