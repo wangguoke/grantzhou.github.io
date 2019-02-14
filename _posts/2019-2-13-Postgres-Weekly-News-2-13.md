@@ -21,7 +21,7 @@ PGX的开源专家提供解决数据库问题，加速现有应用程序，重�
 
 `POSTGRESQL EXPERTS, INC.` **赞助商**
 
-## [Postgres如何错误地使用fsync20年](https://fosdem.org/2019/schedule/event/postgresql_fsync/)
+## [Postgres如何错误地使用fsync二十年](https://fosdem.org/2019/schedule/event/postgresql_fsync/)
 这是一篇有趣的文章，文章关注的问题不仅是Postgres面临的而是很多系统都存在的问题，许多系统认为fsync（将文件缓冲区刷新进最终提交/持久状态的系统调用）的工作方式与它实际的工作方式不一致。“数据持久性/一致性带来灾难性后果”，如果您喜欢深挖，这是一个值得学习的有趣领域。不喜欢视频？[这个Postgres wiki条目](https://wiki.postgresql.org/wiki/Fsync_Errors)中有更多信息。
 
 `TOMAS VONDRA`
@@ -36,7 +36,7 @@ PostgreSQL 11对处理数据库索引的方式进行了几处更改。这篇文�
 
 `AMIT JAIN`
 
-## ▶[在Scale上打破Postgres](https://fosdem.org/2019/schedule/event/breaking_postgresql_on_scale/)
+## ▶[破坏大规模Postgres](https://fosdem.org/2019/schedule/event/breaking_postgresql_on_scale/)
 这是一段50分钟的谈话，FOSDEM探讨了Postgres中的一些Scale“不连续性”以及如何减轻它们。 如果您不希望数据库在Scale时以奇怪的方式失败，这是一个有价值的谈话。
 
 `CHRISTOPHE PETTUS`
