@@ -85,5 +85,5 @@ GoCD最新的CD metrics博客将指导您如何识别瓶颈并改进CI / CD流�
 
 ![img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/iihvxib8f8oboqhbi4f9.jpg)
 
-译：我认为现在人们对图数据库及其用途了解甚少。 大多数人只熟悉 sql 和document存储, 所以存在这样一种丰富的语言用以对relationships进行描述和高效查询，对于数据探索和数据可视化来讲，是一种全新的方式。
+> 译：我认为现在人们对图数据库及其用途了解甚少。 大多数人只熟悉 sql 和document存储, 所以存在这样一种丰富的语言用以对relationships进行描述和高效查询，对于数据探索和数据可视化来讲，是一种全新的方式。
 
