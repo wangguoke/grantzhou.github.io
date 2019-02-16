@@ -43,14 +43,14 @@ PostgreSQL 11不支持的唯一over子句是**pattern**和相关子句。 这些
 
 该例子计算列amnt上的运行总计，因此根据指定的**order by**子句计算当前行之前和之前所有行的总和：
 
-```
+<pre>
 SELECT SUM(amnt)
        OVER(ORDER BY id
-            **ROWS BETWEEN UNBOUNDED PRECEDING**
-                    **AND CURRENT ROW**
+            <b>ROWS BETWEEN UNBOUNDED PRECEDING
+                    AND CURRENT ROW</b>
            ) running_total
-  FROM …
-```
+ FROM …
+</pre>
 
 聚合函数**sum**与**over**子句一起使用，而不是与group by子句一起使用 - 这使它成为一个窗口函数。 这个例子中有趣的部分是框架(framing)，以**粗体**显示。
 
