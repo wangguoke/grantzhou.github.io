@@ -12,13 +12,13 @@ title: PostgreSQL 每周新闻 2019-02-20
 
 ![pg_img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/smn8psobpfnmkotvecyz.jpg)
 
-## [Postgres 11重新确立窗口功能领导力](https://modern-sql.com/blog/2019-02/postgresql-11)
-在竞争对手中，PostgreSQL 11再次提供了最好的OVER子句支持，以及Postgres 11的过程功能与MariaDB和SQL Server等其他系统的比较。
+## [Postgres 11再次确立窗口功能的领导地位](https://modern-sql.com/blog/2019-02/postgresql-11)
+相比其他竞争对手，PostgreSQL 11再次提供了最好的OVER子句支持。以及Postgres 11的过程功能与MariaDB和SQL Server等其他系统的比较。
 
 `MARKUS WINAND`
 
 ## [Postgres 11.2,10.7,9.6.12,9.5.16和9.4.21发布](https://www.postgresql.org/about/news/1920/)
-一系列版本发布通常意味着许多广泛适用的错误修正已经到位......这也是正确的，但主要的改进是Postgres使用fsync（），就像我们[上周](https://postgresweekly.com/issues/292)报道的那样，到目前为止[有些问题](https://fosdem.org/2019/schedule/event/postgresql_fsync/)。
+一系列版本发布通常意味着许多广泛适用的错误修正已经到位......这里也是一样，但主要的改进是Postgres使用fsync（），就像我们[上周](https://postgresweekly.com/issues/292)报道的那样，到目前为止还是[有些问题](https://fosdem.org/2019/schedule/event/postgresql_fsync/)。
 
 `POSTGRESQL GLOBAL DEVELOPMENT GROUP`
 
@@ -33,13 +33,13 @@ Citus Data的Craig Kerstiens解释了为什么在他职业生涯中所获得的�
 
 `CRAIG KERSTIENS`
 
-## [DigitalOcean推出Managed Postgres服务](https://blog.digitalocean.com/announcing-managed-databases-for-postgresql/)
-DigitalOcean加入其他提供商之列，如AWS，Google，MS Azure和Heroku，提供Postgres实例的管理。如果您预算紧张的话，这些看起来特别棒。这是[已安装扩展的列表](https://gist.github.com/peterc/e4f7a288ed0eb7e4ffe2d8383a086306)（包括TimescaleDB）。
+## [DigitalOcean推出Postgres托管服务](https://blog.digitalocean.com/announcing-managed-databases-for-postgresql/)
+DigitalOcean加入其他提供商之列，如AWS，Google，MS Azure和Heroku，提供Postgres实例的托管。如果您预算紧张的话，这些看起来特别棒。这是[已安装扩展的列表](https://gist.github.com/peterc/e4f7a288ed0eb7e4ffe2d8383a086306)（包括TimescaleDB）。
 
 `DIGITALOCEAN`
 
-## [你需要多少maintenance_work_mem？](https://rhaas.blogspot.com/2019/01/how-much-maintenanceworkmem-do-i-need.html)
-work_mem是数据库的关键配置，但如何配置可能会让您感到困惑。Postgres的提交者Robert Hass强调了这个问题并试图解释原因。
+## [你需要多少 `maintenance_work_mem`？](https://rhaas.blogspot.com/2019/01/how-much-maintenanceworkmem-do-i-need.html)
+`work_mem`是数据库的关键配置，但如何配置可能会让您感到困惑。Postgres的提交者Robert Hass强调了这个问题并试图解释原因。
 
 `ROBERT HAAS`
 
@@ -53,7 +53,7 @@ work_mem是数据库的关键配置，但如何配置可能会让您感到困惑
 
 `SEVERALNINES` **赞助商**
 
-## [用Postgres Goggles On查看MySQL 8](https://www.cybertec-postgresql.com/en/looking-at-mysql-8-with-postgresql-goggles-on/)
+## [打开Postgres护目镜观察MySQL 8](https://www.cybertec-postgresql.com/en/looking-at-mysql-8-with-postgresql-goggles-on/)
 如果你是一个深度的Postgres用户，你可能多年没有使用过MySQL了。但是，如果你很好奇现在的MySQL是什么样的，Kaarel已经帮你了解了，甚至找到了在Postgres中受欢迎的一些功能。
 
 `KAAREL MOPPEL`
