@@ -36,7 +36,7 @@ GSoC是Google的一个项目，Google在夏季为参与某些开源项目的大�
 
 `ELEIN MUSTAIN`
 
-## [在Postgres 10+中使用在PL/pgSQL函数中的并行查询](https://rafiasabih.blogspot.com/2019/03/using-parallelism-for-queries-from-pl.html)
+## [在Postgres 10+中使用PL/pgSQL函数中的并行查询](https://rafiasabih.blogspot.com/2019/03/using-parallelism-for-queries-from-pl.html)
 虽然在9.6中引入了并行查询，但直到Postgres 10才能在PL函数中使用它。
 
 `RAFIA SABIH`
