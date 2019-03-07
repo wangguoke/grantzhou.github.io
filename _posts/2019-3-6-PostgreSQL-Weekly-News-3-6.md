@@ -10,13 +10,13 @@ title: PostgreSQL 每周新闻 2019-03-06
 
 ![pg img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xljhbftdd3kyllwfmn1x.jpg)
 
-## [用于视觉倾斜的PostgreSQL工具](https://rob.conery.io/2019/03/04/postgresql-tools-for-the-visually-inclined/)
-为了回应一个[批评Postgres工具](https://www.softwareandbooz.com/postgresql-for-a-sql-server-dba-the-tooling-stinks/)的SQL Server DBA，Rob Conery阐述了Postgres（和Unix）与工具相关的文化是如何不同的，以及其优点。
+## [PostgreSQL的工具们（回答那些喜欢图形界面的人）](https://rob.conery.io/2019/03/04/postgresql-tools-for-the-visually-inclined/)
+为了回应一个[批评Postgres配套工具](https://www.softwareandbooz.com/postgresql-for-a-sql-server-dba-the-tooling-stinks/)的SQL Server DBA，Rob Conery阐述了Postgres（和Unix）与工具相关的文化是如何不同的，以及其优点。
 
 `ROB CONERY`
 
 ## [pgCenter的Wait Events Profiler](https://blog.dataegret.com/2019/03/pgcenters-wait-event-profiler.html)
-[pgCenter](https://github.com/lesovsky/pgcenter)是通过统计数据来监控和故障排除Postgres的流行的工具。最近的0.6版本增加了对分析等待事件的支持（基本上，当Postgres等待事件发生时，例如IO或获得锁）。
+[pgCenter](https://github.com/lesovsky/pgcenter)是一个通过统计数据来监控和故障排除Postgres的流行工具。最近的0.6版本增加了对分析等待事件的支持（基本上是指当Postgres等待事件发生的时候，例如等待IO或获得锁）。
 
 `ALEXEY LESOVSKY`
 
@@ -27,21 +27,21 @@ title: PostgreSQL 每周新闻 2019-03-06
 
 `QUEST SOFTWARE` **赞助商**
 
-## [PostgreSQL项目参与Google Summer of Code 2019](https://www.postgresql.org/about/news/1925/)
+## [PostgreSQL项目参与谷歌编程之夏2019（Google Summer of Code 2019）](https://www.postgresql.org/about/news/1925/)
 GSoC是Google的一个项目，Google在夏季为参与某些开源项目的大学生提供津贴——Postgres就是其中之一。如果您想参加，请[了解更多信息](https://wiki.postgresql.org/wiki/GSoC)。
 
-`POSTGRESQL GLOBAL DEVELOPMENT GROUP`
+`POSTGRESQL全球开发组`
 
-## [如何使用JOIN LATERAL以及原因](https://blog.2ndquadrant.com/join-lateral/)
+## [如何使用JOIN LATERAL以及为什么你希望这样的原因](https://blog.2ndquadrant.com/join-lateral/)
 
 `ELEIN MUSTAIN`
 
-## [Postgres 10+在PL/pgSQL函数中使用并行查询](https://rafiasabih.blogspot.com/2019/03/using-parallelism-for-queries-from-pl.html)
+## [在Postgres 10+中使用在PL/pgSQL函数中的并行查询](https://rafiasabih.blogspot.com/2019/03/using-parallelism-for-queries-from-pl.html)
 虽然在9.6中引入了并行查询，但直到Postgres 10才能在PL函数中使用它。
 
 `RAFIA SABIH`
 
-## [我和WAL战斗，WAL赢了：为什么hot_standby_feedback可能会误导](http://richyen.com/replication/postgres/hot_standby_feedback/2019/03/05/i_fought_the_wal.html)
+## [我和WAL搏斗，WAL赢了：为什么hot_standby_feedback可能会误导](http://richyen.com/replication/postgres/hot_standby_feedback/2019/03/05/i_fought_the_wal.html)
 
 `RICHARD YEN`
 
@@ -55,13 +55,13 @@ pganalyze团队分享他们的最佳实践经验，通过帮助像Atlassian这�
 
 `STEPHEN FROST`
 
-## [ShiftLeft如何使用PostgreSQL的扩展TimescaleDB](http://highscalability.com/blog/2018/12/5/how-shiftleft-uses-postgresql-extension-timescaledb.html)
+## [ShiftLeft如何使用PostgreSQL的TimescaleDB扩展](http://highscalability.com/blog/2018/12/5/how-shiftleft-uses-postgresql-extension-timescaledb.html)
 TimescaleDB是Postgres的扩展，可以帮助处理时间序列数据。在这篇文章，您可以了解ShiftLeft如何利用它来获取metrics和漏洞事件数据。
 
 `HIGH SCALABILITY`
 
-## [使PostgreSQL的EXPLAIN ANALYZE更易读的工具](https://explain.depesz.com/)
-这是一种工具，您可以粘贴EXPLAIN ANALYZE查询的结果，然后得到更易于理解的版本。
+## [一个让PostgreSQL的EXPLAIN ANALYZE更易读的工具](https://explain.depesz.com/)
+这是一个工具，您可以粘贴EXPLAIN ANALYZE查询的结果，然后得到更易于理解的版本。
 
 `HUBERT DEPESZ LUBACZEWSKI`
 
@@ -70,7 +70,7 @@ TimescaleDB是Postgres的扩展，可以帮助处理时间序列数据。在这�
 
 ## 如何获得比默认设置更好的Postgres配置
 
-如果您没有使用托管数据库，或者您没有使用sysadmin，那么您可能会使用Postgres的默认内存和缓存设置。这些已经很好了，但只需稍加调整，Postgres可以更好地利用其环境。
+如果您没有使用托管数据库，或者您没有使用sysadmin，那么您可能会使用Postgres的默认内存和缓存设置。这些已经很好了，但只需稍加调整，Postgres就可以更好地利用其环境。
 
 阅读[有关设置的官方文档](https://www.postgresql.org/docs/9.6/runtime-config-resource.html#RUNTIME-CONFIG-RESOURCE-MEMORY)会花费很长的时间！但值得庆幸的是，在线配置生成器可以提供比默认值更好的设置建议，并且只需要一分钟即可完成。
 
