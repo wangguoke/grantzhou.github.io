@@ -11,7 +11,7 @@ title: PostgreSQL 每周新闻 2019-03-06
 ![pg img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xljhbftdd3kyllwfmn1x.jpg)
 
 ## [用于视觉倾斜的PostgreSQL工具](https://rob.conery.io/2019/03/04/postgresql-tools-for-the-visually-inclined/)
-为了回应一个[批评Postgres工具](https://www.softwareandbooz.com/postgresql-for-a-sql-server-dba-the-tooling-stinks/)的SQL Server DBA，Rob Conery基本上回应了Postgres（和Unix）关于工具的文化是如何不同的，以及这最终是一件好事。
+为了回应一个[批评Postgres工具](https://www.softwareandbooz.com/postgresql-for-a-sql-server-dba-the-tooling-stinks/)的SQL Server DBA，Rob Conery阐述了Postgres（和Unix）与工具相关的文化是如何不同的，以及其优点。
 
 `ROB CONERY`
 
@@ -51,11 +51,11 @@ pganalyze团队分享他们的最佳实践经验，通过帮助像Atlassian这�
 `PGANALYZE` **赞助商**
 
 ## [如何使用Postgres GSSAPI Kerberos身份验证设置Windows Active Directory](https://info.crunchydata.com/blog/windows-active-directory-postgresql-gssapi-kerberos-authentication)
-这是非常适合的，如果你需要这样做，这些指针将有所帮助。
+这是非常适合的，如果你需要这样做，这些指导将有所帮助。
 
 `STEPHEN FROST`
 
-## [ShiftLeft如何使用PostgreSQL扩展TimescaleDB](http://highscalability.com/blog/2018/12/5/how-shiftleft-uses-postgresql-extension-timescaledb.html)
+## [ShiftLeft如何使用PostgreSQL的扩展TimescaleDB](http://highscalability.com/blog/2018/12/5/how-shiftleft-uses-postgresql-extension-timescaledb.html)
 TimescaleDB是Postgres的扩展，可以帮助处理时间序列数据。在这篇文章，您可以了解ShiftLeft如何利用它来获取metrics和漏洞事件数据。
 
 `HIGH SCALABILITY`
@@ -74,11 +74,11 @@ TimescaleDB是Postgres的扩展，可以帮助处理时间序列数据。在这�
 
 阅读[有关设置的官方文档](https://www.postgresql.org/docs/9.6/runtime-config-resource.html#RUNTIME-CONFIG-RESOURCE-MEMORY)会花费很长的时间！但值得庆幸的是，在线配置生成器可以提供比默认值更好的设置建议，并且只需要一分钟即可完成。
 
-首先，可以使用pgtune。填写服务器的操作系统，内存，磁盘类型，并回答其他一些问题，就可以获得建议的主要设置。
+1、可以使用pgtune。填写服务器的操作系统，内存，磁盘类型，并回答其他一些问题，就可以获得建议的主要设置。
 
 ![pgtune_img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ylbj5dq1jdwwrwxhhejz.jpg)  
 
-第二，还可以使用pgconfig.org。这个工具深受pgtune的启发，但有一些简洁的附加功能，例如能够并排查看不同类型工作负载的不同设置。
+2、还可以使用pgconfig.org。这个工具深受pgtune的启发，但有一些简洁的附加功能，例如能够并排查看不同类型工作负载的不同设置。
 
 ![pgconfig_img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/xaenaqbht3yo9pbudtyq.jpg)  
 
