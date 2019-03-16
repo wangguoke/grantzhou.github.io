@@ -17,7 +17,8 @@ title: 数据库每周新闻 2019-3-15
 
 ## [通过终极的Cross-Platform insight来防范数据库风险](https://dbweekly.com/link/60720/web) 
 
-通过Foglight for Cross-Platform databasees 的界面，便可主动诊断并解决数据库的相应问题。![img](https://copm.s3.amazonaws.com/5ed268e4.jpg)
+通过Foglight for Cross-Platform databasees 的界面，便可主动诊断并解决数据库的相应问题。
+![img](https://copm.s3.amazonaws.com/5ed268e4.jpg)
 
 `QUEST SOFTWARE` **赞助商**
 
