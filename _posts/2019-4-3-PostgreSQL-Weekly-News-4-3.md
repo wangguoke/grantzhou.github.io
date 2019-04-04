@@ -10,8 +10,8 @@ title: PostgreSQL 每周新闻 2019-4-3
 
 ![pg_img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssoylsgxn7il7w6zynuj.jpg)
 
-## [Postgres支持“Generated Column”](https://github.com/postgres/postgres/commit/fc22b6623b6b3bab3cb057ccd282c2bfad1a0b30)
-很高兴看到Postgres对SQL标准功能的支持，此提交以一个简单示例开始，该示例说明一种类型的generated column将来如何工作。MySQL 5.7引入了[类似的功能](https://gabi.dev/2016/10/17/understanding-generated-columns/)，SQL Server称它们为[computed columns](https://docs.microsoft.com/en-us/sql/relational-databases/tables/specify-computed-columns-in-a-table?view=sql-server-2017)。
+## [Postgres支持“生成字段（Generated Column）”](https://github.com/postgres/postgres/commit/fc22b6623b6b3bab3cb057ccd282c2bfad1a0b30)
+很高兴看到Postgres对SQL标准功能的支持，此提交以一个简单示例开始，该示例说明一种类型的生成字段（Generated Column）将来如何工作。MySQL 5.7引入了[类似的功能](https://gabi.dev/2016/10/17/understanding-generated-columns/)，SQL Server称它们为[计算列(Computed Column)](https://docs.microsoft.com/en-us/sql/relational-databases/tables/specify-computed-columns-in-a-table?view=sql-server-2017)。
 
 `PETER EISENTRAUT`
 
