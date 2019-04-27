@@ -3,8 +3,9 @@ layout: post
 title: 对于容器中的数据库和Postgres需要知道的11件事
 ---
 
-### 对于容器中的数据库和Postgres需要知道的11件事 - 2019年4月26日
-![AzizRahman](https://bdlguu0syu1idj5d2b4m53mv-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Aziz-Rahman.jpg) 作者：Aziz Rahman
+### 2019年4月26日
+作者：Aziz Rahman ![AzizRahman](https://bdlguu0syu1idj5d2b4m53mv-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Aziz-Rahman.jpg) 
+
 我们看到数据库管理系统（DBMS）的容器部署开始飞速增加，离开了炒作阶段并成为主流。
 容器化数据库趋势的一个迹象是Postgres，一个著名的开源关系数据库，在调查中被列为Docker容器中运行的第三大最受欢迎的技术。
 
