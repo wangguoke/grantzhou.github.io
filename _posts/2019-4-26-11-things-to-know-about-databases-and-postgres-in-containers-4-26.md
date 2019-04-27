@@ -58,4 +58,11 @@ title: 对于容器中的数据库和Postgres需要知道的11件事
 今天，容器和容器编排已经成熟到现在它们已经定位于云原生计划的核心。
 数据库正成为容器化的热门候选者，成为向微服务和无服务器架构转变的一部分的按需使用程序。
 
-  
+## 关于Aziz Rahman
+![authorimg](https://bdlguu0syu1idj5d2b4m53mv-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/Aziz-Rahman.jpg)
+
+Aziz Rahman是EnterpriseDB EDB容器平台的首席架构师，该平台提供基于开源Postgres的企业级数据管理平台。
+过去几年，他一直与Docker和Kubernetes广泛合作，负责在基于Kubernetes的容器编排平台上提供容器化的Postgres生态系统。
+
+[查看Aziz Rahman的所有文章](https://containerjournal.com/author/aziz-rahman/)
+
