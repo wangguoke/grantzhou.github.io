@@ -15,3 +15,5 @@ Please let me know if any comments.
 ### Contact me
 
 [grantzhou AT gmail dot com](mailto:grantzhou@gmail.com)
+
+<a href="https://twitter.com/highgosoftware?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @highgosoftware</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
