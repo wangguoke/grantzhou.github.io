@@ -37,7 +37,12 @@ Bruce Momijan宣布他已经完成了Postgres 12发行说明的初稿，他们�
 `BRUCE MOMIJAN`
 
 ## [Postgres 12新功能：函数优化器支持](https://www.kdobson.net/2019/ultimate-postgresql-slug-function/)
-我通常使用客户端应用进行函数优化，如这篇文章所示，为数据库实体创建规范化的“slug”可以很容易地引用Postgres函数。
+“Support functions” 使查询优化器能洞察函数信息，而在之前查询优化器对函数内部信息一无所知。
+
+`KESTER DOBSON`
+
+## [创建postgres的Slug功能](https://www.kdobson.net/2019/ultimate-postgresql-slug-function/)
+Slug是指字符串优化显示策略，我们通常在app上实现这个功能。现在我们可以将这个功能交给数据库来做，正如本文所讲。
 
 `KESTER DOBSON`
 
