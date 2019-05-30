@@ -17,10 +17,10 @@ title: PostgreSQL 每周新闻 2019-5-29
 
 ## [Postgres 12 Beta 1发布](https://www.postgresql.org/about/news/1943/)
 [初版发布说明](https://www.postgresql.org/docs/devel/release-12.html)详细介绍了新的特性有哪些，但是更值得关注的是：
-* 内联WITH查询支持（为了CTE粉丝）。
-* 2016-compliant JSON路径查询。
-* 根据ICU排序规则的大小写不敏感的比较。
-* [Generated columns](https://www.postgresql.org/docs/devel/ddl-generated-columns.html)。
+* 内置WITH查询支持（为了CTE粉丝）。
+* 符合SQL/JSON 规范的JSON路径查询。
+* 根据ICU排序规则的大小写不敏感或是重音不敏感的比较。
+* [计算列](https://www.postgresql.org/docs/devel/ddl-generated-columns.html)。
 * 可插拔的表存储机制。
 
 `POSTGRESQL 全球开发小组`
