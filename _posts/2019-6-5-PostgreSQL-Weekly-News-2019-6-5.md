@@ -8,10 +8,10 @@ title: PostgreSQL 每周新闻 2019-6-5
 
 备注：[英文原文地址](https://postgresweekly.com/issues/308)
 
-![img](https://postgresweekly.com/link/64740/web)  
+![img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/v1559735604/pwkj4s4p7kakrzulztte.png)  
 
 ## [Postgres12的表访问方法和blackhole插件](https://paquier.xyz/postgresql-2/postgres-12-table-am-blackhole/)
-表访问方法（通常称为“可插入存储”）被认为是Postgres 12中的一个突出的特性，可以更容易地显着扩展Postgres的工作方式。Michael用一个基本的[“blackhole”插件](https://github.com/michaelpq/pg_plugins/tree/master/blackhole_am)展示了它的基础知识（它基本上充当了存储的/dev/ null方法）。
+表访问方法（通常称为“可插入存储”）被认为是Postgres 12中的一个突出的特性，可以更容易地显着扩展Postgres的工作方式。Michael用一个基本的[“blackhole”插件](https://github.com/michaelpq/pg_plugins/tree/master/blackhole_am)展示了它的基础知识（它本质上充当/dev/null存储方法）。
 
 `MICHAEL PAQUIER`
 
@@ -42,7 +42,7 @@ title: PostgreSQL 每周新闻 2019-6-5
 `TIM NOLET`
 
 ## [电子书：优化Postgres查询性能的最佳实践](https://pganalyze.com/ebooks/optimizing-postgres-query-performance?utm_source=PostgresWeeklySecondary)
-在这个免费的pganalyze电子书中，了解如何在Postgres数据库上获得3倍的性能提升，从磁盘加载的数据减少500倍。
+在这个免费的pganalyze电子书中，了解如何在Postgres数据库上获得3倍的性能提升，减少500倍从磁盘加载的数据。
 
 `PGANALYZE` **赞助商**
 
@@ -67,9 +67,9 @@ title: PostgreSQL 每周新闻 2019-6-5
 
 Postgres的官方（并且一直很受欢迎）的psql终端客户端有很多有趣的功能，到现在我才意识到这都是因为它使用了[Readline库](https://en.wikipedia.org/wiki/GNU_Readline)（通常，基于UNIX的实用程序, shell等也使用Readline库）。
 
-Readline为提高psql的可用性带来了许多有用的文本编辑功能，包括补全功能（在键入查询时尝试它，这个功能很好用），按Ctrl + W可以整个删除键入的最后一个词。
+Readline为提高psql的可用性带来了许多有用的文本编辑功能，包括补全功能（在键入查询时尝试它，这个功能很好用），按 `Ctrl+W` 可以整个删除键入的最后一个词。
 
-你还可以访问历史记录（通常存储在运行Postgres的用户的主目录中的.psql_history文件中）可以按↑或↓来浏览最近输入的命令和查询，你知道可以动态搜索历史记录吗？
+你还可以访问历史记录（通常存储在运行Postgres的用户的主目录中的 `.psql_history` 文件中）可以按↑或↓来浏览最近输入的命令和查询，你知道可以动态搜索历史记录吗？
 
 假设你有这样的会话：
 
@@ -82,7 +82,7 @@ SELECT * FROM people ORDER BY name ASC LIMIT 1;
 
 如果现在按Ctrl + R并输入SEL，你将看到之前的查询再次出现，因为它已准备好自动完成。如果你继续输入，可以进一步调整搜索范围或按Ctrl + C以跳出搜索功能。
 
-如果你使用搜索找到的查询并不是你想要的查询，那么再次按Ctrl + R，它将循环其他的匹配。因此，如果按Ctrl + R并输入SEL，然后按住Ctrl + R，它将循环显示存储在历史记录中的其他SELECT查询。
+如果你使用搜索找到的查询并不是你想要的查询，那么再次按 `Ctrl + R`，它将循环其他的匹配。因此，如果按 `Ctrl + R` 并输入 `SEL` ，然后按住`Ctrl + R`，它将循环显示存储在历史记录中的其他SELECT查询。
 
 >本周提示由[GitPrime](https://resources.gitprime.com/books/20-patterns/?utm_source=nl(pgw)&utm_medium=email-nl&utm_campaign=nl(pgw))提供支持。获取他们新的指南['20个工程团队需要关注的模式'](https://resources.gitprime.com/books/20-patterns/?utm_source=nl(pgw)&utm_medium=email-nl&utm_campaign=nl(pgw))的副本，其中包含可操作的见解，以帮助您调试开发过程中的数据。
 
