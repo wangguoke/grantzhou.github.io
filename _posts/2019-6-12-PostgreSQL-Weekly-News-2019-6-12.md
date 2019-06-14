@@ -69,7 +69,8 @@ BRIN（块范围索引）索引是一种加速表顺序扫描的强大方法，�
 
 `DAVID ROHER`
 
-```markdown
+
+
 🗓  **即将举办的Postgres活动**  
 
 - [PostgreSQL Ibiza(六月19-21日, 伊维萨)](https://www.pgibz.io/index.html) —— 这个在西班牙著名的度假岛上举行的会议将会带来“海滩上的Postgres”，同时仍然在一个漂亮整洁的场地上进行会谈和培训。  
@@ -77,8 +78,6 @@ BRIN（块范围索引）索引是一种加速表顺序扫描的强大方法，�
 - [PostgresLondon 2019 (7月2-3日，伦敦)](https://postgreslondon.org/)
 - [PostgresConf Beijing 2019(7月3-6日，中国北京)](https://postgresconf.org/conferences/Beijing)
 - [2019年奥地利PGDay (September 6 in Wiener Neustadt, Austria)](https://pgday.at/en/)
-
-```
 
 
 
