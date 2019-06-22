@@ -104,6 +104,6 @@ TimescaleDB是一个开源的Postgres扩展，用于大规模处理时间序列�
 
 
 
-[为企业带来可扩展的实时分析]( https://www.oreilly.com/ideas/bringing-scalable-real-time-analytics-to-the-enterprise)- 。一次35分钟的播客访谈，采访了Rockset公司的两名员工，Rockset是一家致力于低延迟大数据分析的公司。
+[为企业带来可扩展的实时分析]( https://www.oreilly.com/ideas/bringing-scalable-real-time-analytics-to-the-enterprise)--一次35分钟的播客访谈，采访了Rockset公司的两名员工，Rockset是一家致力于低延迟大数据分析的公司。
 
 `O'REILLY DATA SHOW`
