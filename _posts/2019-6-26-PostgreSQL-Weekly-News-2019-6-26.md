@@ -11,7 +11,7 @@ title: PostgreSQL 每周新闻 2019-6-26
 ![img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/ssanjh8nvme1bq9vcfog.jpg)  
 
 ## [介绍Postgres的Hypothetical索引](https://www.percona.com/blog/2019/06/21/hypothetical-indexes-in-postgresql/)
-想一下为什么要为Postgres创建虚拟索引呢？这是一种有意义的方法，它可以在你真的创建一个索引之前，判断你将要穿件的索引是否有用。
+想一下为什么要为Postgres创建虚拟索引呢？这是一种有意义的方法，它可以在你真的创建一个索引之前，判断你将要创建的索引是否有用。
 
 `AVINASH VALLARAPU`
 
@@ -26,7 +26,7 @@ title: PostgreSQL 每周新闻 2019-6-26
 `CITUS DATA, NOW PART OF MICROSOFT` **赞助商**
 
 ## [Postgres 12的主要功能的PDF](https://momjian.us/main/writings/pgsql/features.pdf)
-著名的Postgres专家Bruce Momijan发布了一个文档，重点介绍了Postgres12的新功能和显著的改善。，包括jit编译和并发reindex.仅需要1分钟就可以读完。
+著名的Postgres专家Bruce Momijan发布了一个文档，重点介绍了Postgres12的新功能和显著的改善。，包括jit编译和并发reindex，仅需要1分钟就可以读完。
 
 `BRUCE MOMIJAN`
 
