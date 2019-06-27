@@ -1,9 +1,9 @@
 ---
 layout: post
-title: PostgreSQL 每周新闻 2019-6-27
+title: PostgreSQL 每周新闻 2019-6-26
 ---
 
-### PostgreSQL每周新闻#310 - 2019年6月27日
+### PostgreSQL每周新闻#310 - 2019年6月26日
 ![_config.yml]({{ site.baseurl }}/images/PostgresWeekly.png)
 
 备注：[英文原文地址](https://postgresweekly.com/issues/311)
