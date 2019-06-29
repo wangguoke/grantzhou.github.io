@@ -27,7 +27,7 @@ MongoDB 4.2版本将包含新功能-下面将介绍其中的四个功能，包�
 
 ## [Postgres 12的主要功能](https://momjian.us/main/writings/pgsql/features.pdf)
 
-著名的Postgres专家Bruce Momijan发布了一个文档，重点介绍了Postgres12的新功能和显著的改善。，包括jit编译和并发reindex，仅需要1分钟就可以读完。
+著名的Postgres专家Bruce Momijan发布了一个文档，重点介绍了Postgres12的新功能和显著的改善。包括jit编译和并发reindex，仅需要1分钟就可以读完。
 
 `BRUCE MOMIJAN`
 
