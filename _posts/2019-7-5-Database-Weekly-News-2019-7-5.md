@@ -27,7 +27,7 @@ title: 数据库每周新闻 2019-7-5
 
 ## [教程：使用DocumentDB进行复杂的设计](https://www.gremlin.com/community/tutorials/chaos-engineering-with-documentdb/?utm_medium=cpm&utm_source=DBWeekly&utm_content=20190705&utm_campaign=2019_Cooperpress)
 
-本教程介绍如何针对Amazon的新MongoDB兼容数据库DocumentDB运行简单的网络黑洞攻击。![img](https://copm.s3.amazonaws.com/31d1640d.png)
+本教程介绍如何针对Amazon的新MongoDB兼容数据库DocumentDB运行简单的网络黑洞攻击。
 
 `GREMLIN` **赞助商**
 
