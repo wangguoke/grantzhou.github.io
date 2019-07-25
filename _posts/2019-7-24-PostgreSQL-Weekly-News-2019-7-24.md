@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PostgreSQL 每周新闻 2019-7-25
+title: PostgreSQL 每周新闻 2019-7-24
 ---
 
 ### PostgreSQL每周新闻#315 - 2019年7月24日
