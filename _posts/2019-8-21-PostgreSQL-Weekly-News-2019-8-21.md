@@ -25,7 +25,7 @@ Percona，也许因其MySQL性能专业知识而闻名，现在也在活跃在Po
 
 ## [在工程团队中需要注意的20种模式](https://resources.gitprime.com/books/20-patterns/?utm_source=nl(pgw)&utm_medium=email-nl&utm_campaign=nl(pgw))
 
-Gitprime的新书汇集了一些最常见的软件团队动态，这是在与数百个企业工程组织合作时观察到的。可操作的洞察力，帮助您用数据调试开发过程。拿到你的拷贝。
+Gitprime的新书汇集了一些最常见的软件团队动态，这是在与数百个企业工程组织合作时观察到的。可操作的洞察力，帮助您用数据调试开发过程。
 
 `GITPRIME`**赞助商**
 
@@ -39,7 +39,7 @@ Gitprime的新书汇集了一些最常见的软件团队动态，这是在与数
 
 ## [移植Postgres插件到windows系统](http://www.myrkraverk.com/blog/2019/08/porting-a-postgresql-extension-from-unix-to-windows-10/)
 
-从头开始构建自己的Postgres扩展是一回事，移植现有的扩展以支持不同的操作系统是另一回事，特别是当Windows是目标时。你们中很少有人不太可能需要这样做，但这些笔记可能是非常宝贵的。
+构建自己的Postgres扩展和移植现有的扩展以支持不同的操作系统是不同的事情，特别是向Windows系统移植，虽然很少有人需要这样做，但这些笔记可能是非常宝贵的。
 
 `JOHANN ‘MYRKRAVERK’ OSKARSSON`
 
@@ -111,6 +111,8 @@ COMMENT ON TABLE issues IS 'Newsletter issues';
 
 
 
+
+
 🗓  **即将举办的Postgres活动**  
 
 • [PGDay Austria 2019](https://pgday.at/en/)（9月6日， 维纳·纽斯塔特，奥地利）
@@ -119,8 +121,8 @@ COMMENT ON TABLE issues IS 'Newsletter issues';
 
 • [PostgresOpen 2019](https://postgresweekly.com/link/68304/web) (9月11-13日， 佛罗里达)——两天包含有关PostgreSQL和相关技术的教程和演示文稿。
 
-[PostgresConf Silicon Valley 2019](https://postgresweekly.com/link/68305/web)（9月18-20日，圣荷西）——时间表（包括培训）现已公布
+• [PostgresConf Silicon Valley 2019](https://postgresweekly.com/link/68305/web)（9月18-20日，圣荷西）——时间表（包括培训）现已公布
 
-[PostgresConf South Africa 2019](https://postgresweekly.com/link/68306/web)（10月8-9日， 约翰内斯堡）——提供给使用Postgres的数据库管理和开发人员互相了解的机会。
+• [PostgresConf South Africa 2019](https://postgresweekly.com/link/68306/web)（10月8-9日， 约翰内斯堡）——提供给使用Postgres的数据库管理和开发人员互相了解的机会。
 
-[PostgreSQL Conference Europe 2019](https://postgresweekly.com/link/68391/web)（10月15-18日， 米兰）
+• [PostgreSQL Conference Europe 2019](https://postgresweekly.com/link/68391/web)（10月15-18日， 米兰）
