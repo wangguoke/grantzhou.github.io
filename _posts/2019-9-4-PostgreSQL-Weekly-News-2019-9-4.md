@@ -50,6 +50,7 @@ preriod是一个sql:2016特性，有点像postgres的范围类型，这个扩展
 
 # 💡本周提示
 **使用distinct on的基本示例**
+
 上周，我们的技巧是关于select distinct，这是一种不使用group by从列中轻松选择唯一值的方法。本周，我们又向前迈了一步！
 当select distinct从列中选择唯一值时，select distinct on选择可以明显匹配各种条件的第一行。这很难单独用文字来解释，所以让我们试试最简单的例子。
 让我们创建一个表来存储不同位置的温度。在真实的案例中，您可能也会有一个与时间相关的列，但为了简洁起见，我们在这里使用int：
@@ -82,6 +83,7 @@ SELECT DISTINCT ON(location) *
  Springfield | 74
 ```
 如果我们没有使用DISTINCT，我们会得到所有的位置和温度随温度的降序排列。然而，Distinct on（location）将结果分解为每个位置的第一个匹配结果，为每个位置计算出最高温度。
+
 **🗓即将举办的Postgres活动**
 
 - [PostgreSQL Conference Asia 2019](https://postgresweekly.com/link/69378/web)（9月8日至11日，印度尼西亚巴厘岛）
