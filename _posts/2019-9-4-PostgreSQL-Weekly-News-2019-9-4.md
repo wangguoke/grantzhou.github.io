@@ -8,36 +8,44 @@ title: PostgreSQL 每周新闻 2019-9-4
 ![img](https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60/nfgxq8b2htpbgfqcp0ue.jpg)
 ## [pspg：为postgres表设计的unix分页器](https://postgresweekly.com/link/69363/web)
 如果您使用psql，您可能会用less它作为分页器，但它不直接支持表格数据。将要介绍的这个是支持的！最新的主分支版本还支持按列排序。
+
 `Pavel Stehule `
 
 ## [如何使用pl/pgsql计算日期范围内的工作小时数](https://postgresweekly.com/link/69365/web)
 在一系列日期中有多少工作时间？一个使用pl/pgsql实现的，方便、完美的、容易理解的例子。
+
 `Luca Ferrari `
 
 ## [因为你的数据是你的业务](https://postgresweekly.com/link/69366/web)
 PGX提供完整的PostgreSQL支持，从紧急服务到日常运营支持，再到战略规划。我们来这里是为了你的数据操作。
+
 `PostgreSQL Experts, Inc. `
 
 ## [PostgreSQL 12如何提高性能](https://postgresweekly.com/link/69367/web)
 “只需升级就有性能提升”。Postgres12增强了CTE查询，默认情况下对查询进行了JIT编译，索引也得到了改进。
+
 `Jonathan S. Katz `
 
 ## [为什么需要用pl pgsql检查你写的pl/pgsql存储过程](https://postgresweekly.com/link/69368/web)
 pl/pgsql允许您直接在postgres和sql查询中编写和执行一些非常高级的逻辑，plpgsql检查可以帮助您解决性能和sql注入问题。
+
 `Pavel Stěhule `
 
 ## [在google云平台（gcp）上运行postgresql](https://postgresweekly.com/link/69369/web)
 看看谷歌平台为postgres用户提供的功能。
+
 `Viorel Tabara `
 
 ## [如何设置在amazon rds上测试postgres12beta3](https://postgresweekly.com/link/69370/web)
 aws提供postgres的beta版本，用于在其美国东部2地区的“预览环境”中进行测试。
+
 `Jignesh Shah `
 
 ## [集装箱时代的it监控：ebpf可观测性的挖掘](https://postgresweekly.com/link/69371/web)
 `InfluxData `
 ## [Postgres连接字符串和PSQL](https://postgresweekly.com/link/69372/web)
 你知道有三种不同的方法可以建立到同一个数据库的连接吗？一种键/值方法，流行的“url”方法，在psql中使用命令行选项。
+
 `Dimitri Fontaine `
 
 ## [使用pgBackRest设置远程备份和恢复](https://postgresweekly.com/link/69373/web)
@@ -46,13 +54,16 @@ aws提供postgres的beta版本，用于在其美国东部2地区的“预览环�
 `Johann 'Myrkraverk' Oskarsson `
 ## [Postgres的周期和系统版本控制](https://postgresweekly.com/link/69375/web)
 preriod是一个sql:2016特性，有点像postgres的范围类型，这个扩展在postgres中实现了一些基本支持。
+
 `Vik Fearing `
 
 # 💡本周提示
 **使用distinct on的基本示例**
 
 上周，我们的技巧是关于select distinct，这是一种不使用group by从列中轻松选择唯一值的方法。本周，我们又向前迈了一步！
+
 当select distinct从列中选择唯一值时，select distinct on选择可以明显匹配各种条件的第一行。这很难单独用文字来解释，所以让我们试试最简单的例子。
+
 让我们创建一个表来存储不同位置的温度。在真实的案例中，您可能也会有一个与时间相关的列，但为了简洁起见，我们在这里使用int：
 
 ```
