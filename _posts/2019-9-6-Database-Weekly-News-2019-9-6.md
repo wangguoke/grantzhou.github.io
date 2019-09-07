@@ -50,11 +50,11 @@ MongoDB Data Lake目前处于beta版，是一个完全托管的数据湖，它�
 
 
 - Brave是一款基于Chromium的隐私导向浏览器的创建者，他“发现”了一种据称谷歌用来规避GDPR隐私义务的技术。
-### 💻招聘
+## 💻招聘
 
 
 - 通过Vettery找到一份DB工作-制作一份免费的个人资料，说出你的薪水，并与顶级雇主的招聘经理联系。
-### 📒 其他
+## 📒 其他
 
 
 ## [将关系数据库重构为amazon dynamodb](https://dbweekly.com/link/69607/web)
